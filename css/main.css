@@ -2,11 +2,41 @@
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  background-color: #2b2b2b;
-  color: #f7b617;
   line-height: 1.5em;
 }
 
-#map {
-  height: 100%;
+
+.index-colors {
+  background-color: #63c9c7;
+  color:#ff6963;
+  font-weight: bold;
+  font-size: 5em
 }
+
+.search-colors {
+  background-color:#ff6963;
+  color: #2b2b2b;
+}
+
+.search i {
+  position: absolute;
+  cursor: pointer;
+  right: -12px;
+  top: 9px;
+}
+
+ul {
+  padding: 0px;
+  margin-top: 10px;
+}
+
+ul li {
+  list-style-type: none;
+  background: #ffffff;
+  color: #ff6963;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  text-align: center
+}
+
